@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kynetx</string>
+    <string name="appid">AppID:</string>
+    <string name="title">Text:</string>
+    <string name="body">Results:</string>
+    <string name="version">Version:</string>
+    <string name="send">Send</string>
+    <string name="menu_add_app">Add App</string>
+    <string name="error_connecting">There was an error connecting to Kynetx.</string>
+	<string name="error_parsing">There was an error with the Kynetx Network System.</string>
+	<string name="error_storing_cookies">There was an error storing your cookies.</string>
+	<string name="local_service_label">Kynetx</string>
+	<string name="local_service_started">Kynetx Service Started</string>
+	<string name="local_service_stopped">Kynetx Service Stopped</string>
+	<string name="stop_service">Stop</string>
+	<string name="start_service">Start</string>
+	<string name="edit_app">Edit App</string>
+	<string name="app_version_prompt">App Version:</string>
+	<string name="save">Save</string>
+	<string name="delete">Delete</string>
+	<string name="send_location">Send Location</string>
+	<string name="cancel">Cancel</string>
+	<string name="clear_cookies">Clear Cookies</string>
+	<string name="sending_data">Sending Data</string>
+	<string name="exit">Exit</string>
+	<string name="clear">Clear</string>
+	<string name="menu_notifications">Notifications</string>
+	<string-array name="Versions">
+        <item>dev</item>
+        <item>prod</item>
+    </string-array>
+    <string-array name="Notifications">
+        <item>dev</item>
+        <item>prod</item>
+        <item>jam</item>
+        <item>bro</item>
+    </string-array>
+</resources>

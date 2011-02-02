@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="@string/title" />
+		<EditText android:id="@+id/title" 
+		  android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_weight="1"/>
+	</LinearLayout>
+		
+	<Spinner
+		android:id="@+id/AppsSpinner"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:drawSelectorOnTop="true"
+		android:prompt="@string/app_version_prompt">
+	</Spinner>
+
+
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="@string/body" />
+	<TextView android:id="@+id/body" android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:scrollbars="vertical" />
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		<Button android:id="@+id/send" 
+		  android:text="@string/send"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+		<Button android:id="@+id/start" 
+		  android:text="@string/start_service"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+		<Button android:id="@+id/stop" 
+		  android:text="@string/stop_service"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+		<Button android:id="@+id/send_location" 
+		  android:text="@string/send_location"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+		<Button android:id="@+id/clear" 
+		  android:text="@string/clear_cookies"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+</LinearLayout>
