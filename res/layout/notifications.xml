@@ -8,11 +8,7 @@
 		android:orientation="horizontal"
 		android:id="@+id/buttonsWrapper"
 		android:layout_alignParentBottom="true" >
-		<Button android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:id="@+id/exit"
-			android:text="@string/exit" />
-		<Button android:layout_width="wrap_content"
+		<Button android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
 			android:id="@+id/clear"
 			android:text="@string/clear" />

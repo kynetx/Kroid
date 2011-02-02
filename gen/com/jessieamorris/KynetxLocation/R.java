@@ -28,7 +28,6 @@ public final class R {
         public static final int cancel=0x7f060004;
         public static final int clear=0x7f06000e;
         public static final int delete=0x7f060003;
-        public static final int exit=0x7f060013;
         public static final int notification_action=0x7f060011;
         public static final int notification_text=0x7f060010;
         public static final int notification_title=0x7f06000f;
@@ -38,7 +37,7 @@ public final class R {
         public static final int start=0x7f06000b;
         public static final int stop=0x7f06000c;
         public static final int title=0x7f060007;
-        public static final int version=0x7f060014;
+        public static final int version=0x7f060013;
     }
     public static final class layout {
         public static final int app_edit=0x7f030000;
@@ -50,29 +49,30 @@ public final class R {
     }
     public static final class string {
         public static final int app_name=0x7f040000;
-        public static final int app_version_prompt=0x7f040010;
+        public static final int app_version_prompt=0x7f040012;
         public static final int appid=0x7f040001;
         public static final int body=0x7f040003;
-        public static final int cancel=0x7f040014;
-        public static final int clear=0x7f040018;
-        public static final int clear_cookies=0x7f040015;
-        public static final int delete=0x7f040012;
-        public static final int edit_app=0x7f04000f;
-        public static final int error_connecting=0x7f040007;
-        public static final int error_parsing=0x7f040008;
-        public static final int error_storing_cookies=0x7f040009;
-        public static final int exit=0x7f040017;
-        public static final int local_service_label=0x7f04000a;
-        public static final int local_service_started=0x7f04000b;
-        public static final int local_service_stopped=0x7f04000c;
-        public static final int menu_add_app=0x7f040006;
-        public static final int menu_notifications=0x7f040019;
-        public static final int save=0x7f040011;
+        public static final int cancel=0x7f040016;
+        public static final int clear=0x7f04001a;
+        public static final int clear_cookies=0x7f040017;
+        public static final int delete=0x7f040014;
+        public static final int edit_app=0x7f040011;
+        public static final int error_connecting=0x7f040009;
+        public static final int error_parsing=0x7f04000a;
+        public static final int error_storing_cookies=0x7f04000b;
+        public static final int exit=0x7f040019;
+        public static final int local_service_label=0x7f04000c;
+        public static final int local_service_started=0x7f04000d;
+        public static final int local_service_stopped=0x7f04000e;
+        public static final int menu_add_app=0x7f040008;
+        public static final int menu_manage_apps=0x7f040006;
+        public static final int notification_details=0x7f040007;
+        public static final int save=0x7f040013;
         public static final int send=0x7f040005;
-        public static final int send_location=0x7f040013;
-        public static final int sending_data=0x7f040016;
-        public static final int start_service=0x7f04000e;
-        public static final int stop_service=0x7f04000d;
+        public static final int send_location=0x7f040015;
+        public static final int sending_data=0x7f040018;
+        public static final int start_service=0x7f040010;
+        public static final int stop_service=0x7f04000f;
         public static final int title=0x7f040002;
         public static final int version=0x7f040004;
     }

@@ -16,7 +16,7 @@ public class NotificationDetails extends Activity {
     	super.onCreate(savedInstanceState);
     	
     	setContentView(R.layout.notification_detail);
-    	setTitle(R.string.menu_notifications);
+    	setTitle(R.string.notification_details);
     	
     	rowId = getIntent().getExtras().getLong("rowid");
     	mDbHelper = new KynetxSQLHelper(this);

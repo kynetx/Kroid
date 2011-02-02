@@ -6,6 +6,8 @@
     <string name="body">Results:</string>
     <string name="version">Version:</string>
     <string name="send">Send</string>
+    <string name="menu_manage_apps">Manage Apps</string>
+    <string name="notification_details">Notification Details</string>
     <string name="menu_add_app">Add App</string>
     <string name="error_connecting">There was an error connecting to Kynetx.</string>
 	<string name="error_parsing">There was an error with the Kynetx Network System.</string>
@@ -25,7 +27,6 @@
 	<string name="sending_data">Sending Data</string>
 	<string name="exit">Exit</string>
 	<string name="clear">Clear</string>
-	<string name="menu_notifications">Notifications</string>
 	<string-array name="Versions">
         <item>dev</item>
         <item>prod</item>

@@ -19,7 +19,7 @@
         <activity android:name=".NotificationDetails">
         </activity>
         
-        <activity android:name=".Notifications">
+        <activity android:name=".ManageApps">
         </activity>
         
 		<service android:name="EventReciever">
